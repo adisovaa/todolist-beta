@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'08 Reducer and unit test'" />
+    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'09 Reducer and unit test 03'">
+      <change afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,18 +41,35 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST",
+    "last_opened_file_path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/src/state",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/node_modules/react-scripts",
+    "nodejs.jest.jest_package": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/react-scripts",
     "nodejs_package_manager_path": "yarn",
     "ts.external.directory.path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Jest.correct todolist should change its name">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/state" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.correct task should be delete from correct array">
+    <configuration name="correct task should be delete from correct array" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/my-app" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" />
+      <test-names>
+        <test-name value="correct task should be delete from correct array" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="correct todolist should be added" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -93,23 +118,13 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.correct task should be delete from correct array" />
         <item itemvalue="Jest.correct todolist should change its name" />
         <item itemvalue="Jest.correct todolist should be added" />
         <item itemvalue="Jest.correct todolist should be removed" />
         <item itemvalue="Jest.user reducer should change name of user" />
-        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +153,8 @@
       <workItem from="1710622851700" duration="11178000" />
       <workItem from="1710701178404" duration="116000" />
       <workItem from="1710788147105" duration="7217000" />
-      <workItem from="1710981207857" duration="1217000" />
+      <workItem from="1710981207857" duration="4809000" />
+      <workItem from="1711062466740" duration="6280000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -189,6 +205,8 @@
     <MESSAGE value="task 5" />
     <MESSAGE value="'07 material-ui'" />
     <MESSAGE value="'08 Reducer and unit test'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'08 Reducer and unit test'" />
+    <MESSAGE value="'09 Reducer and unit test 02'" />
+    <MESSAGE value="'09 Reducer and unit test 03'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'09 Reducer and unit test 03'" />
   </component>
 </project>
