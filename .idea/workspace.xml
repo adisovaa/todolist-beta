@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'09 Reducer and unit test 03'">
-      <change afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,22 +33,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/src/state",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/src/state&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src/state" />
@@ -154,7 +151,8 @@
       <workItem from="1710701178404" duration="116000" />
       <workItem from="1710788147105" duration="7217000" />
       <workItem from="1710981207857" duration="4809000" />
-      <workItem from="1711062466740" duration="6280000" />
+      <workItem from="1711062466740" duration="6364000" />
+      <workItem from="1711215893062" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710814753498</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="'09 Reducer and unit test 03'">
+      <created>1711070368489</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711070368489</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
