@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'09 Reducer and unit test 04'">
-      <change afterPath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-app/src/state/todolists-tasks-reducer.test.ts" afterDir="false" />
+    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'09 Reducer and unit test 05'">
+      <change afterPath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/state/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/todolist-reducer.ts" afterDir="false" />
@@ -39,22 +39,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/admin/Desktop/IT-KAMASUTRA/TODOLIST/my-app/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/my-app/src" />
@@ -162,7 +162,8 @@
       <workItem from="1711215893062" duration="19149000" />
       <workItem from="1711294830482" duration="85000" />
       <workItem from="1711333414779" duration="66000" />
-      <workItem from="1711400759199" duration="6212000" />
+      <workItem from="1711400759199" duration="6344000" />
+      <workItem from="1711496109992" duration="5472000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -206,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711225185578</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="'09 Reducer and unit test 05'">
+      <created>1711428494079</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711428494079</updated>
+    </task>
+    <task id="LOCAL-00008" summary="'09 Reducer and unit test 05'">
+      <created>1711428503159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711428503159</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +245,7 @@
     <MESSAGE value="'09 Reducer and unit test 02'" />
     <MESSAGE value="'09 Reducer and unit test 03'" />
     <MESSAGE value="'09 Reducer and unit test 04'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'09 Reducer and unit test 04'" />
+    <MESSAGE value="'09 Reducer and unit test 05'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'09 Reducer and unit test 05'" />
   </component>
 </project>

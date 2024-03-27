@@ -85,7 +85,6 @@ function App() {
             setTodolists([...todolists])
         }
     }
-
     function addTodolist(title: string) {
         let todolist: TodolistType = {
             id: v1(),
