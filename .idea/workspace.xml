@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'10 useReducer, redux 02'">
-      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/EditableSpan.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
     </list>
@@ -163,7 +166,7 @@
       <workItem from="1711400759199" duration="6344000" />
       <workItem from="1711496109992" duration="6455000" />
       <workItem from="1711578492440" duration="112000" />
-      <workItem from="1711752703952" duration="5538000" />
+      <workItem from="1711752703952" duration="16119000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -249,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711503499009</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="'10 useReducer, redux 02'">
+      <created>1711826702016</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711826702016</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

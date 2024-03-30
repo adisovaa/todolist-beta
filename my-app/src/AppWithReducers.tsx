@@ -1,4 +1,4 @@
-import React, {useReducer} from 'react';
+import React, {useCallback, useReducer} from 'react';
 import './App.css';
 import {TaskType, Todolist} from './Todolist';
 import {v1} from 'uuid';
@@ -78,11 +78,11 @@ function AppWithReducers() {
         dispatchToTodolistsReducer(changeTodolistTitleAC(id, newTitle))
     }
 
-    function addTodolist(title: string) {
+    const addTodolist = useCallback((title: string)=>  {
         const action = addTodolistAC(title)
         dispatchToTodolistsReducer(action)
         dispatchTasksReducer(action)
-    }
+    }, [])
 
     return (
         <div className="App">
@@ -121,12 +121,12 @@ function AppWithReducers() {
                                             key={tl.id}
                                             id={tl.id}
                                             title={tl.title}
-                                            tasks={tasksForTodolist}
-                                            removeTask={removeTask}
+                                            // tasks={tasksForTodolist}
+                                            // removeTask={removeTask}
                                             changeFilter={changeFilter}
-                                            addTask={addTask}
-                                            changeTaskStatus={changeStatus}
-                                            changeTaskTitle={changeTaskTitle}
+                                            //addTask={addTask}
+                                            //changeTaskStatus={changeStatus}
+                                            //changeTaskTitle={changeTaskTitle}
                                             filter={tl.filter}
                                             removeTodolist={removeTodolist}
                                             changeTodolistTitle={changeTodolistTitle}
