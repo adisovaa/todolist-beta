@@ -135,10 +135,9 @@ function App() {
                                             key={tl.id}
                                             id={tl.id}
                                             title={tl.title}
-                                            tasks={tasksForTodolist}
-                                            removeTask={removeTask}
+                                            //removeTask={removeTask}
                                             changeFilter={changeFilter}
-                                            addTask={addTask}
+                                            //addTask={addTask}
                                             changeTaskStatus={changeStatus}
                                             changeTaskTitle={changeTitle}
                                             filter={tl.filter}

@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'10 useReducer, redux'">
+    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'10 useReducer, redux 02'">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Todolist.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +161,9 @@
       <workItem from="1711294830482" duration="85000" />
       <workItem from="1711333414779" duration="66000" />
       <workItem from="1711400759199" duration="6344000" />
-      <workItem from="1711496109992" duration="5854000" />
+      <workItem from="1711496109992" duration="6455000" />
+      <workItem from="1711578492440" duration="112000" />
+      <workItem from="1711752703952" duration="5538000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -226,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711503268623</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="'10 useReducer, redux'">
+      <created>1711503485763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711503485763</updated>
+    </task>
+    <task id="LOCAL-00012" summary="'10 useReducer, redux'">
+      <created>1711503499009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711503499009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +275,7 @@
     <MESSAGE value="'09 Reducer and unit test 04'" />
     <MESSAGE value="'09 Reducer and unit test 05'" />
     <MESSAGE value="'10 useReducer, redux'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'10 useReducer, redux'" />
+    <MESSAGE value="'10 useReducer, redux 02'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'10 useReducer, redux 02'" />
   </component>
 </project>
