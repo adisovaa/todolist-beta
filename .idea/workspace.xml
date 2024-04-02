@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'10 useReducer, redux 02'">
+    <list default="true" id="fd26e3f7-0b04-4c11-b9f6-d0ffba8f23e4" name="Changes" comment="'11 useReducer'">
+      <change afterPath="$PROJECT_DIR$/my-app/.storybook/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/.storybook/preview.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/AddItemForm/AddItemForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/Task.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Button.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Configure.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Header.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Page.stories.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/Page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/accessibility.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/accessibility.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/addon-library.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/assets.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/avif-test-image.avif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/context.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/discord.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/docs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/figma-plugin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/styling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/testing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/theming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/tutorials.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/assets/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-app/src/stories/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-app/src/AddItemForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AddItemForm/AddItemForm.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithReducers.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/AppWithRedux.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/EditableSpan.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/EditableSpan.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/Todolist.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/Todolist.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-app/src/state/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/store.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/src/state/tasks-reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-app/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/my-app/yarn.lock" afterDir="false" />
     </list>
@@ -36,12 +67,17 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2auyuVQVx3a75QXTydbSc9hCafY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -61,8 +97,14 @@
       <recent name="$PROJECT_DIR$/my-app/src" />
       <recent name="$PROJECT_DIR$/my-app/src/state" />
     </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="$PROJECT_DIR$/my-app/src/Task.tsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/my-app/src/AddItemForm" />
+    </key>
   </component>
-  <component name="RunManager" selected="Jest.new property with new array should be added when new todolist is added">
+  <component name="RunManager" selected="npm.storybook">
     <configuration name="correct task should be added to correct way" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
@@ -72,18 +114,6 @@
       <test-file value="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" />
       <test-names>
         <test-name value="correct task should be added to correct way" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="ids should be equals" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$/my-app" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/my-app/src/state/todolists-tasks-reducer.test.ts" />
-      <test-names>
-        <test-name value="ids should be equals" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -111,25 +141,30 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="title of specified task should be changed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="build" type="js.build_tools.npm" singleton="false" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="star" />
       <node-interpreter value="project" />
-      <jest-package value="$PROJECT_DIR$/my-app/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$/my-app" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/my-app/src/state/tasks-reducer.test.ts" />
-      <test-names>
-        <test-name value="title of specified task should be changed" />
-      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/my-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.build" />
         <item itemvalue="Jest.new property with new array should be added when new todolist is added" />
         <item itemvalue="Jest.correct task should be added to correct way" />
         <item itemvalue="Jest.property with todolist should be deleted" />
-        <item itemvalue="Jest.ids should be equals" />
-        <item itemvalue="Jest.title of specified task should be changed" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +201,10 @@
       <workItem from="1711400759199" duration="6344000" />
       <workItem from="1711496109992" duration="6455000" />
       <workItem from="1711578492440" duration="112000" />
-      <workItem from="1711752703952" duration="16119000" />
+      <workItem from="1711752703952" duration="16223000" />
+      <workItem from="1711904516853" duration="72000" />
+      <workItem from="1712012013581" duration="5003000" />
+      <workItem from="1712021210170" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="task 5">
       <created>1706582040803</created>
@@ -259,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1711826702016</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="'11 useReducer'">
+      <created>1711840735883</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711840735883</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +322,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="task 5" />
     <MESSAGE value="'07 material-ui'" />
     <MESSAGE value="'08 Reducer and unit test'" />
@@ -286,6 +332,7 @@
     <MESSAGE value="'09 Reducer and unit test 05'" />
     <MESSAGE value="'10 useReducer, redux'" />
     <MESSAGE value="'10 useReducer, redux 02'" />
-    <option name="LAST_COMMIT_MESSAGE" value="'10 useReducer, redux 02'" />
+    <MESSAGE value="'11 useReducer'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'11 useReducer'" />
   </component>
 </project>
