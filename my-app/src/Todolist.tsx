@@ -1,13 +1,13 @@
 import React, {useCallback} from 'react';
-import {AddItemForm} from "./AddItemForm/AddItemForm";
-import {EditableSpan} from "./EditableSpan";
+import {AddItemForm} from "./components/AddItemForm/AddItemForm";
+import {EditableSpan} from "./components/EditableSpan/EditableSpan";
 import {Button, IconButton} from "@mui/material";
 import {Delete} from "@mui/icons-material";
 import {useDispatch, useSelector} from "react-redux";
 import {AppRootState} from "./state/store";
 import {addTaskAC} from "./state/tasks-reducer";
 import {FilterValuesType} from "./AppWithRedux";
-import {Task} from "./Task";
+import {Task} from "./components/Task/Task";
 
 export type TaskType = {
     id: string

@@ -62,7 +62,11 @@
     "@storybook/react-webpack5": "^8.0.5",
     "@storybook/test": "^8.0.5",
     "eslint-plugin-storybook": "^0.8.0",
+    "jest-image-snapshot": "^6.4.0",
+    "jest-puppeteer": "^10.0.1",
     "prop-types": "^15.8.1",
+    "puppeteer": "^22.6.3",
+    "start-server-and-test": "^2.0.3",
     "storybook": "^8.0.5",
     "webpack": "^5.91.0"
   }
