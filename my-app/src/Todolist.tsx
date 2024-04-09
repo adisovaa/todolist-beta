@@ -6,7 +6,7 @@ import {Delete} from "@mui/icons-material";
 import {useDispatch, useSelector} from "react-redux";
 import {AppRootState} from "./state/store";
 import {addTaskAC} from "./state/tasks-reducer";
-import {FilterValuesType} from "./AppWithRedux";
+import {FilterValuesType} from "./AppWithRedux/AppWithRedux";
 import {Task} from "./components/Task/Task";
 
 export type TaskType = {
@@ -80,5 +80,3 @@ export const Todolist = React.memo((props: PropsType) => {
         </div>
     </div>
 })
-
-
